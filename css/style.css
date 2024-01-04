@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*header*/
+.head {
+  height: 100vh;
+  /* background-image: url("C:/Users/Hamza/Desktop/myproj/project4/img/gaming_news.jpg"); */
+  background-image: url("../img/gaming_news.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container h1 {
+  color: white;
+  font-size: 50px;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+}
+.container a:hover {
+  color: rgba(245, 245, 245, 0.856);
+}
+.container button {
+  font-size: 20px;
+  padding: 8px 50px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 40px;
+}
+.container button:hover {
+  background: white;
+  color: black;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.container p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 130%;
+  left: 42%;
+}
+.container p > a {
+  text-decoration: underline;
+  padding: 0 15px;
+}
+/*first section*/
+.first {
+  margin-bottom: 10vh;
+}
+.first .circle {
+  content: "";
+  width: 50%;
+  height: 50%;
+  background: rgb(89, 89, 198);
+  position: absolute;
+  clip-path: circle(20%);
+  margin-left: -80px;
+}
+.first .heading {
+  text-align: center;
+  padding: 100px 0 0 300px;
+  font-size: 50px;
+}
+.first .heading > span {
+  padding-left: 175px;
+}
+.first .image1 {
+  padding: 10vh 0 0 30vh;
+}
+.first .image1 > img {
+  height: 70vh;
+  width: 70vh;
+  border-radius: 100%;
+}
+.first .image2 {
+  position: relative;
+  bottom: 80px;
+  padding-left: 30vh;
+}
+.first .image2 > img {
+  height: 30vh;
+  width: 30vh;
+  border: 16px solid white;
+  border-radius: 100%;
+}
+.block {
+  height: 70vh;
+  width: 70vh;
+  background: rgba(128, 128, 128, 0.2);
+  position: absolute;
+  top: 160%;
+  left: 43%;
+  padding: 30px;
+}
+.block h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.block p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.block p > a {
+  color: gray;
+  padding: 0 15px;
+}
+.block #btn {
+  text-decoration: none;
+  border: 2px solid blue;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgb(89, 89, 198);
+  text-transform: uppercase;
+}
+.block #btn:hover {
+  background-color: rgb(93, 0, 180);
+}
+#br-circle {
+  height: 120px;
+  width: 120px;
+  background: white;
+  border: 16px solid burlywood;
+  border-radius: 100%;
+  position: absolute;
+  left: 35%;
+  margin: -80px;
+}
+/*secend section*/
+.secend {
+  height: 125vh;
+  background-image: url("../img/mm.jpg");
+  background-size: 100% 157%;
+  background-repeat: no-repeat;
+}
+.secend .container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 70px 100px 0 0;
+}
+.content {
+  height: 100%;
+  width: 45%;
+  background: white;
+}
+.item1,
+.item2,
+.item3 {
+  margin: 10px;
+  padding: 30px;
+}
+h1 {
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  padding: 10px;
+}
+p {
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  font-size: 20px;
+}
+/*third section*/
+.third {
+  height: 100vh;
+  position: relative;
+}
+.third .squar {
+  height: 70vh;
+  width: 130vh;
+  background-color: rgb(89, 89, 198);
+  margin: 30vh auto;
+  z-index: -1;
+}
+.third .won {
+  height: 80vh;
+  width: 100vh;
+  position: absolute;
+  top: -25vh;
+  left: 58vh;
+  z-index: 1;
+}
+.third .div-content {
+  height: 480px;
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  position: absolute;
+  top: 40vh;
+  left: 30vh;
+  z-index: 2;
+}
+.third .div-content > h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.third .div-content > p > a {
+  color: black;
+}
+.third .div-content > button {
+  text-decoration: none;
+  border: 2px solid blue;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgb(89, 89, 198);
+  text-transform: uppercase;
+}
+.third .div-content > button:hover {
+  background-color: rgb(93, 0, 180);
+}
+/*fourth section*/
+.fourth {
+  height: 100vh;
+  background-image: url("../img/manit2.jpg");
+  background-size: 100% 157%;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  padding: 100px;
+}
+.fourth > h1 {
+  color: white;
+  font-size: 80px;
+}
+.fourth > button {
+  font-size: 20px;
+  padding: 8px 50px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 40px;
+}
+.fourth > button:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+/*fifth section*/
+.fifth {
+  text-align: center;
+  padding: 40px 200px 0 200px;
+}
+.fifth > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fifth > button {
+  text-decoration: none;
+  border: 2px solid blue;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgb(89, 89, 198);
+  text-transform: uppercase;
+}
+.fifth > button:hover {
+  background-color: rgb(93, 0, 180);
+}
+/*sixth section*/
+.sixth {
+  height: 120vh;
+  position: relative;
+}
+.sixth .image1 {
+  padding: 10vh 0 0 20vh;
+}
+.sixth .image1 > img {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 100%;
+}
+.sixth .image1 > img:first-child {
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+}
+.sixth .image1 > img:last-child {
+  position: absolute;
+  top: 50px;
+  right: 120px;
+}
+.sixth .image2 {
+  padding: 10vh 0 0 30vh;
+  z-index: 1;
+}
+.sixth .image2 > img {
+  height: 70vh;
+  width: 70vh;
+  border-radius: 100%;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+.sixth .circle2 {
+  content: "";
+  width: 100vh;
+  height: 100vh;
+  background: rgb(89, 89, 198);
+  clip-path: circle(15%);
+  position: absolute;
+  top: 25vh;
+  left: 67vh;
+}
+.circle-none {
+  height: 160px;
+  width: 160px;
+  background: white;
+  border: 25px solid burlywood;
+  border-radius: 100%;
+  position: absolute;
+  top: 80vh;
+  left: 140vh;
+}
+/*seventh section */
+.seventh {
+  position: relative;
+  height: 120vh;
+  background-color: dimgray;
+}
+.seventh .rectangle {
+  height: 120vh;
+  width: 60vh;
+  background-color: burlywood;
+  margin-left: 120vh;
+}
+.seventh .photo {
+  position: absolute;
+  top: 30vh;
+  left: 100vh;
+}
+.seventh .photo > img {
+  width: 100vh;
+  height: 80vh;
+}
+.seventh .text {
+  width: 60vh;
+  height: 75vh;
+  background-color: white;
+  padding: 20px 40px;
+  position: absolute;
+  top: 10vh;
+  left: 50vh;
+}
+.seventh .text > button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  color: black;
+}
+.seventh .text > button:hover {
+  background-color: black;
+  color: white;
+}
+
+/*header*/
+@media screen and (max-width: 800px) {
+  /*header*/
+  .head {
+    height: 100vh;
+    background-image: url("../img/gaming_news.jpg");
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  /*first article*/
+  article .heading {
+    text-align: none;
+    padding: 20px 0 0 0;
+
+    font-size: 40px;
+  }
+  article .heading > span {
+    padding-left: 140px;
+  }
+  article .circle {
+    width: 70%;
+    height: 70%;
+  }
+  article .image1 {
+    padding-left: 0;
+    padding-top: 30vh;
+  }
+
+  article .image1 > img {
+    height: 60vh;
+    width: 60vh;
+  }
+  article .image2 {
+    bottom: 80px;
+    padding-left: 10vh;
+  }
+  #br-circle {
+    position: absolute;
+    left: 70%;
+    margin: -80px;
+  }
+  .block {
+    top: 260vh;
+    left: 0;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1250px) {
+  .head {
+    height: 100vh;
+    background-image: url("../img/gaming_news.jpg");
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+}
